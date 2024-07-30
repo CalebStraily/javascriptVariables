@@ -114,6 +114,7 @@ console.log("I'm Baz3! " + baz3);
 console.log(`Hello Baz2 ${baz3}`);
 */
 
+/*
 let userName = prompt("Please enter your name");
 console.log("Hello, " + userName + "!");
 
@@ -131,3 +132,31 @@ let userAge = parseInt(prompt("Please enter your age in years: "));
 console.log("Age in years: " + userAge);
 let totalDays = userAge * 365;
 console.log("Total age in days: " + totalDays);
+*/
+
+/*
+let temperature = 55;
+let conditions = "sunny";
+let suriseTime = "7:34";
+let sunsetTime = "5:09";
+
+console.log(`It's currently ${conditions} and ${temperature} degrees. The sun rose this morning at ${suriseTime} AM and will set at ${sunsetTime} PM.`);
+*/
+
+/*
+var a = "3";
+var b = "8";
+var temp;
+
+temp = a;
+a = b;
+b = temp;
+
+console.log(`a is ${a}`);
+console.log(`b is ${b}`);
+*/
+
+let firstName = prompt("Please enter your first name: ");
+let lastName = prompt("Please enter you last name: ");
+
+console.log(`Your name is: ${firstName} ${lastName}.`)
